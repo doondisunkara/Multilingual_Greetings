@@ -42,7 +42,7 @@ class App extends Component {
   }
 
   updateActiveTabId = activeTabId => {
-    this.setState = {activeTabId}
+    this.setState({activeTabId})
   }
 
   renderGreetings = () => {
